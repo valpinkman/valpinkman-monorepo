@@ -1,6 +1,9 @@
 {
   "version": 2,
   "projects": {
-    "types-types-devices": "libs/types/types-devices"
+    "types-coins": "libs/types/coins",
+    "types-devices": "libs/types/devices",
+    "valpinkman": "apps/valpinkman",
+    "valpinkman-e2e": "apps/valpinkman-e2e"
   }
 }

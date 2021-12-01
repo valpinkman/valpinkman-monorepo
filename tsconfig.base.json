@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@valpinkman/types-devices": ["libs/types/types-devices/src/index.ts"]
+      "@valpinkman/types-coins": ["libs/types/coins/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

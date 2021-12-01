@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'types-types-devices',
+  displayName: 'types-devices',
   preset: '../../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -11,5 +11,5 @@ module.exports = {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../../coverage/libs/types/types-devices',
+  coverageDirectory: '../../../coverage/libs/types/devices',
 };
