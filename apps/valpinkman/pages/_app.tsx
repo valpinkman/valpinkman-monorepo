@@ -1,7 +1,8 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import './styles.css';
-import { Coin } from '@valpinkman/types-coins';
+import type { Coin } from '@valpinkman/types-coins';
+import type { Device } from '@valpinkman/types-devices';
 
 const c: Coin = {
   id: 'BTC',

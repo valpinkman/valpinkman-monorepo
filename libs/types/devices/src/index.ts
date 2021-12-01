@@ -1,1 +1,1 @@
-export * from './lib/types-types-devices';
+export * from './lib/types-devices';

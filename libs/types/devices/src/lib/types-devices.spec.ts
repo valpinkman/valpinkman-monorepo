@@ -1,4 +1,4 @@
-import { typesTypesDevices } from './types-types-devices';
+import { typesTypesDevices } from './types-devices';
 
 describe('typesTypesDevices', () => {
   it('should work', () => {
