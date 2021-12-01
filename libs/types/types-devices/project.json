@@ -1,0 +1,34 @@
+{
+  "root": "libs/types/types-devices",
+  "sourceRoot": "libs/types/types-devices/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/types/types-devices/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/types/types-devices"],
+      "options": {
+        "jestConfig": "libs/types/types-devices/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "build": {
+      "executor": "@nrwl/node:package",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/types/types-devices",
+        "tsConfig": "libs/types/types-devices/tsconfig.lib.json",
+        "packageJson": "libs/types/types-devices/package.json",
+        "main": "libs/types/types-devices/src/index.ts",
+        "assets": ["libs/types/types-devices/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

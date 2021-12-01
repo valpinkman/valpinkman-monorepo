@@ -1,4 +1,6 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "types-types-devices": "libs/types/types-devices"
+  }
 }
